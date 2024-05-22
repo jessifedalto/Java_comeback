@@ -32,10 +32,12 @@
         public static void main(String[] args) {
             ArrayList<String> tasksArrayList = new ArrayList<String>();
             ArrayList<String> durationsArrayList = new ArrayList<String>();
-        
+            
             JFrame frame = new JFrame("My Tasks");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             
+            frame.setVisible(true);
+           
             JButton btRegister = new JButton("Adicionar tarefa");
             
             JPanel mainPanel = new JPanel();
@@ -48,7 +50,6 @@
             frame.add(mainPanel);
             frame.pack();
             
-            frame.setVisible(true);
 
             btRegister.addActionListener(new ActionListener(){
                     

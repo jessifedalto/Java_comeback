@@ -54,6 +54,8 @@ public class MainFrame extends JFrame {
                 
                 updateTasksDisplay();
 
+                repaint();
+
                 setVisible(false);
                 
             }
