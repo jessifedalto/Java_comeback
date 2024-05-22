@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginSceneController">
+   <children>
+      <Pane prefHeight="401.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="28.0" layoutY="110.0" text="User" />
+            <Label layoutX="15.0" layoutY="215.0" text="Password" />
+            <TextField id="tbLogin" fx:id="tbLogin" layoutX="77.0" layoutY="106.0" prefHeight="25.0" prefWidth="487.0" style="-fx-background-color: #9a8cff;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <Button id="btLogin" fx:id="btLogin" layoutX="274.0" layoutY="307.0" mnemonicParsing="false" onAction="#tryLogin" style="-fx-background-color: #9a8cff;" text="Login" />
+            <PasswordField id="tbPassword" fx:id="tbPassword" layoutX="77.0" layoutY="211.0" prefHeight="26.0" prefWidth="487.0" style="-fx-background-color: #9a8cff;" />
+            <CheckBox id="ckPassword" fx:id="ckPassword" layoutX="28.0" layoutY="315.0" mnemonicParsing="false" text="Show password" textFill="WHITE" />
+            <Text fill="WHITE" layoutX="281.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
