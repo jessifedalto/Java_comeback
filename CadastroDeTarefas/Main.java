@@ -16,18 +16,18 @@
 
     public class Main {
 
-        public void registerTask(String task, String duration) {
-            tasksArrayList.add(task);
-            durationsArrayList.add(duration);
-        }
+        // public void registerTask(String task, String duration) {
+        //     tasksArrayList.add(task);
+        //     durationsArrayList.add(duration);
+        // }
 
-        public ArrayList<String> getTaskArrayList() {
-            return tasksArrayList;
-        }
+        // public ArrayList<String> getTaskArrayList() {
+        //     return tasksArrayList;
+        // }
 
-        public ArrayList<String> getDurationArrayList(){
-            return durationsArrayList;
-        }
+        // public ArrayList<String> getDurationArrayList(){
+        //     return durationsArrayList;
+        // }
 
         public static void main(String[] args) {
             ArrayList<String> tasksArrayList = new ArrayList<String>();
